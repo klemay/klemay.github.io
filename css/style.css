@@ -3,7 +3,7 @@
     background-color:black;
     color:white;
     text-align:center;
-    padding:5px;
+    padding:0px;
 }
 #nav {
     line-height:30px;
@@ -11,7 +11,7 @@
     height:300px;
     width:100px;
     float:left;
-    padding:5px; 
+    padding:0px; 
 }
 #section {
     width:350px;
@@ -23,6 +23,6 @@
     color:white;
     clear:both;
     text-align:center;
-    padding:5px; 
+    padding:0px; 
 }
 </style>
