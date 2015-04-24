@@ -1,22 +1,33 @@
 <style>
-#nav {
-    line-height:30px;
-    background-color:#eeeeee;
-    height:300px;
-    width:100px;
-    float:left;
-    padding:0px; 
+.box { float: left; }
+#root { max-width: 1200px; margin: 0 auto; }
+
+#box1 { width: 33%; }
+#box2 { width: 67%; }
+
+
+/* Laptop/Tablet (1024px) */
+@media only screen and (min-width: 481px) and (max-width: 1024px) and (orientation: landscape) {
+	#box1 { width: 100%; }
+	#box2 { width: 100%; }
 }
-#section {
-    width:350px;
-    float:left;
-    padding:10px; 
+
+/* Tablet Portrait (768px) */
+@media only screen and (min-width: 321px) and (max-width: 1024px) and (orientation: portrait) {
+	#box1 { width: 100%; }
+	#box2 { width: 100%; }
 }
-#footer {
-    background-color:black;
-    color:white;
-    clear:both;
-    text-align:center;
-    padding:0px; 
+
+/* Phone Landscape (480px) */
+@media only screen and (min-width: 321px) and (max-width: 480px) and (orientation: landscape) {
+	#box1 { width: 100%; }
+	#box2 { width: 100%; }
 }
+
+/* Phone Portrait (320px) */
+@media only screen and (max-width: 320px) {
+	#box1 { width: 100%; }
+	#box2 { width: 100%; }
+}
+
 </style>
