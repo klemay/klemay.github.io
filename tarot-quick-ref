@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tarot quick reference guide</title>
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="tarot.css">
+</head>
+<div class="container">
+  <div class="jumbotron">
+    <span class="anchor" id="top"></span>
+    <div class="row" style="margin-top: -20px;">
+      <h3>Tarot card quick reference guide</h3>
+    </div>
+    <span class="anchor" id="major-table"></span>
+    <div class="row">
+      <h4>Major Arcana</h4>
+    </div>
+    <!-- Table1 -->
+    <div class="row">
+      <div>
+        <table class="table table-hover table-major">
+
+          <tr>
+            <th class="col-sm-1" scope="col">Key</th>
+            <th class="col-sm-4" scope="col">Card name</th>
+            <th class="col-sm-5" scope="col">Meanings</th>
+          </tr>
+          <tr>
+            <td>0</td>
+            <td>The Fool</td>
+            <td>beginnings, innocence, clear conscience
+            </td>
+          </tr>
+          <tr>
+            <td>I</td>
+            <td>The Magician</td>
+            <td>action, conscious awareness, power, concentration
+            </td>
+          </tr>
+          <tr>
+            <td>II</td>
+            <td>The High Priestess</td>
+            <td>intuition, clairvoyance, premonition, perceptiveness
+            </td>
+          </tr>
+          <tr>
+            <td>III</td>
+            <td>The Empress</td>
+            <td>mothering, abundance, creativity, senses, nature, nourishment
+            </td>
+          </tr>
+          <tr>
+            <td>IV</td>
+            <td>The Emperor</td>
+            <td>fathering, structure, authority, regulation
+            </td>
+          </tr>
+          <tr>
+            <td>V</td>
+            <td>The Hierophant</td>
+            <td>education, belief systems, conformity, identification with a group
+            </td>
+          </tr>
+          <tr>
+            <td>VI</td>
+            <td>The Lovers</td>
+            <td>relationship, sexuality, moral choices, personal beliefs, temptation
+            </td>
+          </tr>
+          <tr>
+            <td>VII</td>
+            <td>The Chariot</td>
+            <td>victory, will, self-assertion, hard control, jurisdiction
+            </td>
+          </tr>
+          <tr>
+            <td>VIII</td>
+            <td>Strength</td>
+            <td>fortitude, patience, compassion, security, soft control
+            </td>
+          </tr>
+          <tr>
+            <td>IX</td>
+            <td>The Hermit</td>
+            <td>introspection, searching, guidance, solitude, wisdom
+            </td>
+          </tr>
+          <tr>
+            <td>X</td>
+            <td>The Wheel of Fortune</td>
+            <td>destiny, turning point, movement, personal vision, global view
+            </td>
+          </tr>
+          <tr>
+            <td>XI</td>
+            <td>Justice</td>
+            <td>equity, fairness, responsibility, decision, cause and effect
+            </td>
+          </tr>
+          <tr>
+            <td>XII</td>
+            <td>The Hanged Man</td>
+            <td>letting go, reversal, suspension, sacrifice, grace
+            </td>
+          </tr>
+          <tr>
+            <td>XIII</td>
+            <td>Death</td>
+            <td>ending, transition, inexorable forces, suffering, elimination
+            </td>
+          </tr>
+          <tr>
+            <td>XIV</td>
+            <td>Temperance</td>
+            <td>balance, health, combination of forces
+            </td>
+          </tr>
+          <tr>
+            <td>XV</td>
+            <td>The Devil</td>
+            <td>bondage, materialism, ignorance, hopelessness
+            </td>
+          </tr>
+          <tr>
+            <td>XVI</td>
+            <td>The Tower</td>
+            <td>sudden change, release, downfall, upheaval, ego, hubris
+            </td>
+          </tr>
+          <tr>
+            <td>XVII</td>
+            <td>The Star</td>
+            <td>hope, inspiration, generosity, sincerity
+            </td>
+          </tr>
+          <tr>
+            <td>XVIII</td>
+            <td>The Moon</td>
+            <td>fear, illusion, anxiety, imagination, bewilderment, reflection
+            </td>
+          </tr>
+          <tr>
+            <td>XIX</td>
+            <td>The Sun</td>
+            <td>enlightenment, greatness, vitality, assurance, glory
+            </td>
+          </tr>
+          <tr>
+            <td>XX</td>
+            <td>Judgement</td>
+            <td>rebirth, inner calling, absolution, forgiveness, epiphany
+            </td>
+          </tr>
+          <tr>
+            <td>XXI</td>
+            <td>The World</td>
+            <td>accomplishment, fulfillment, completion, consummation
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <div class="row" style="padding-bottom: 20px;">
+      <a href="#top" data-ajax="false">Back to top</a>
+    </div>
+    <span class="anchor" id="minor-table"></span>
+
+    <div class="row">
+      <h4>Minor Arcana</h4>
+    </div>
+
+   
+    <!-- Table2 -->
+    <div class="row">
+      <table class="table table-hover table-minor">
+        <thead>
+          <tr>
+            <th class="col0" scope="col"></th>
+            <th class="col1" scope="col">Wands<br><span class="meaning">(Fire / Creativity)</span></th>
+            <th class="col2" scope="col">Cups<br><span class="meaning">(Water / Emotion)</span></th>
+            <th class="col3" scope="col">Swords<br><span class="meaning">(Air / Reason)</span>
+            </th>
+            <th class="col4" scope="col">Pentacles<br><span class="meaning">(Earth / Material)</span></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">Ace <span class="meaning"><br>Potential, Beginnings</span></th>
+            <td><b>Wands: </b>Venture, opportunity</td>
+            <td><b>Cups: </b>Abundance, affirmation
+            </td>
+            <td><b>Swords: </b>Conquest, valiance
+            </td>
+            <td><b>Pentacles: </b>Offer, investment, small financial gain</td>
+          </tr>
+          <tr>
+            <th scope="row">II<br><span class="meaning">Balance, Cooperation</span></th>
+            <td><b>Wands: </b>Accomplishment, aspiration
+            </td>
+            <td><b>Cups: </b>Friendship, affinity, cooperation
+            </td>
+            <td><b>Swords:</b>Stalemate, catch-22, difficult choice
+            </td>
+            <td><b>Pentacles:</b>Multitasking, juggling, prospects, possibilities
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">III<br><span class="meaning">Creation, Development</span></th>
+            <td><b>Wands: </b>Validation, effort, productivity
+            </td>
+            <td><b>Cups: </b>Celebration, jubilee, merriment
+            </td>
+            <td><b>Swords:</b>Strife, loss, heartbreak
+            </td>
+            <td><b>Pentacles:</b>Endorsement, recognition, fraternity
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">IV<br><span class="meaning">Control, Foundations</span></th>
+            <td><b>Wands: </b>Prosperity, concord, familial bliss, celebration of milestone
+            </td>
+            <td><b>Cups: </b> Introspection, reflection, contemplation
+            </td>
+            <td><b>Swords:</b> Repose, recovery, illness
+            </td>
+            <td><b>Pentacles:</b> Miser, frugality
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">V<br><span class="meaning">Adversity, Uncertainty</span></th>
+            <td><b>Wands: </b>Competition, rivalry, contention
+            </td>
+            <td><b>Cups: </b>Loss, mourning, regrets
+            </td>
+            <td><b>Swords:</b>Corruption, profiteering, cunning
+            </td>
+            <td><b>Pentacles:</b>Destitution, privation, hardships, rejection
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">VI<br><span class="meaning">Spirit, Harmony</span></th>
+            <td><b>Wands: </b>Success, victory, exalt, tribute
+            </td>
+            <td><b>Cups: </b>Nostalgia, childhood, reminiscence, memories
+            </td>
+            <td><b>Swords:</b>Journey, pilgrimage, baggage
+            </td>
+            <td><b>Pentacles:</b>Charity, benevolence, alms, philanthropy
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">VII<br><span class="meaning">Knowledge, Widsom</span></th>
+            <td><b>Wands: </b>Resistance, opposition, being backed into a corner
+            </td>
+            <td><b>Cups: </b>Temptation, superficiality, enticement, decoys
+            </td>
+            <td><b>Swords:</b>Impulsiveness, spontaneity, deception
+            </td>
+            <td><b>Pentacles:</b>Promotion, harvest, fiscal responsibility
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">VIII<br><span class="meaning">Achievement, Assets</span></th>
+            <td><b>Wands: </b>Action, vigor, alacrity, acceleration
+            </td>
+            <td><b>Cups: </b>Abandonment, detachment, spiritual journey
+            </td>
+            <td><b>Swords:</b>Imprisonment, confinement, captivity, constraints
+            </td>
+            <td><b>Pentacles:</b>Aspiration, apprenticeship, natural gifts in craft
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">IX<br><span class="meaning">Karma, Giving back</span></th>
+            <td><b>Wands: </b>Defensive, protective
+            </td>
+            <td><b>Cups: </b>Wishful, wish granted, comfort, material success
+            </td>
+            <td><b>Swords:</b>Haunted, grieving, insomnia, troubled
+            </td>
+            <td><b>Pentacles:</b>Prosperity, refinement, independence
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">X<br><span class="meaning">Completion, Transformation</span></th>
+            <td><b>Wands: </b>Burden, exhaustion, labor (for others, not self)</td>
+            <td><b>Cups: </b> Happiness, joy, felicity
+            </td>
+            <td><b>Swords:</b> Retaliation, reprisals, revenge, treachery
+            </td>
+            <td><b>Pentacles:</b> Stability, prestige, aristocracy, urbanity
+            </td>
+          </tr>
+          <tr>
+            <th>Page<br><span class="meaning">Adventure, Possibility</span></th>
+            <td><b>Wands: </b> Motivated, energetic, receipt of project news
+            </td>
+            <td><b>Cups: </b> Dreamer, sensitive, poetic, receipt of personal news
+            </td>
+            <td><b>Swords:</b> Ambitious, judicious, communication
+            </td>
+            <td><b>Pentacles:</b> Practical, stylish, scholarly, receipt of financial news
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">Knight<br><span class="meaning">Spirit, Energy</span></th>
+            <td><b>Wands: </b> Impetuous, competitive, hot-headed
+            </td>
+            <td><b>Cups: </b> Charming, affable, equanimity
+            </td>
+            <td><b>Swords:</b> Aggressive, charge, warrior
+            </td>
+            <td><b>Pentacles:</b> Methodical, rational stable, reliable
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">Queen<br><span class="meaning">Influence, Inner focus</span></th>
+            <td><b>Wands: </b>Self-assured, naturalist, down-to-earth
+            </td>
+            <td><b>Cups: </b>Nurturing, warm, tender, empathetic
+            </td>
+            <td><b>Swords:</b>Astute, high-achieving, executive, striking
+            </td>
+            <td><b>Pentacles:</b>Charitable, noble, opulence
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">King<br><span class="meaning">Authority, Outward focus</span></th>
+            <td><b>Wands: </b> Authoritarian, demanding, noble, honest
+            </td>
+            <td><b>Cups: </b> Diplomatic, caring, fatherhood
+            </td>
+            <td><b>Swords:</b> Intellectual, analytical, stern, orderly
+            </td>
+            <td><b>Pentacles:</b> Powerful, enterprising, established
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <!-- End row -->
+    <div class="row" style="padding-bottom: 20px;">
+      <a href="#top" data-ajax="false">Back to top</a>
+    </div>
+  </div>
+  <!--end container-->
+
+</div>
+<footer>
+  <p align="center">Designed and coded by Katelyn Lemay</p>
+</footer>
+</body>
+</html>
