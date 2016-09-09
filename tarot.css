@@ -1,10 +1,45 @@
+b {
+  display: none;
+}
+.container {
+  max-width: 960px;
+}
+
 .jumbotron {
   background-color: white;
 }
 .table {
-  margin-bottom: 80px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .meaning {
   font-weight: normal;
 }
+@media 
+ (max-width: 680px) {
+  
+   .table-minor thead { 
+    display: none;
+  }
+   .table-minor th {
+     border-top: none !important;
+   }
+  .table-minor td, .table-minor tr { 
+    display: block; 
+   
+  }
+   .table-minor tr {
+     border-top: 1px solid #ddd;
+   }
+   .table-minor td {
+     border-top: none !important;
+   }
+  .table-minor b {
+      display: inline-block;
+      padding-right: 5px;
+      text-indent: 0;
+}
+   .meaning {
+     font-style: italic; 
+   } 
