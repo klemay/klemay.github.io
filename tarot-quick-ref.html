@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Tarot quick reference guide</title>
@@ -6,12 +7,26 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 <link rel="stylesheet" href="tarot.css">
 </head>
-<div class="container">
+<body>
+<!-- navigation -->
+<div class="jumbotron">
+<div class="custom-nav">
+  <div class="row">
+    <h3><a href="#">Tarot quick reference guide</a></h3>
+  </div>
+  <div class="row">
+    <ul class="list-inline">
+      <li><a href="#major-table">Major arcana</a></li>
+      <li>★</li>
+      <li><a href="#minor-table">Minor arcana</a></li>
+    </ul>
+  </div>
+  </div>
+</div>
+<!-- end nav-->
+<div class="container" id="main">
   <div class="jumbotron">
     <span class="anchor" id="top"></span>
-    <div class="row" style="margin-top: -20px;">
-      <h3>Tarot card quick reference guide</h3>
-    </div>
     <span class="anchor" id="major-table"></span>
     <div class="row">
       <h4>Major Arcana</h4>
@@ -161,16 +176,64 @@
         </table>
       </div>
     </div>
-    <div class="row" style="padding-bottom: 20px;">
-      <a href="#top" data-ajax="false">Back to top</a>
-    </div>
-    <span class="anchor" id="minor-table"></span>
+        <span class="anchor" id="minor-table"></span>
+
+
 
     <div class="row">
       <h4>Minor Arcana</h4>
     </div>
-
-   
+    <!--Mobile skip to -->
+    <div class="skip">
+    <div class="row">
+      Skip to:
+    </div>
+    <div class="row">
+    <div class="btn-group btn-group-justified">
+      
+     <div class="btn-group btn-grp-xs">
+      <a href="#ace" class="btn btn-default court-btn-long">Ace</a>
+      </div>
+      <div class="btn-group btn-grp-xs">
+      <a href="#ace" class="btn btn-default">II</a>
+      </div>
+      <div class="btn-group btn-grp-xs">
+      <a href="#two" class="btn btn-default">III</a>
+      </div>
+      <div class="btn-group btn-grp-xs">
+      <a href="#three" class="btn btn-default">IV</a>
+      </div>
+      <div class="btn-group btn-grp-xs">
+      <a href="#four" class="btn btn-default">V</a>
+      </div>
+      <div class="btn-group btn-grp-xs">
+      <a href="#five" class="btn btn-default">VI</a>
+      </div>
+      <div class="btn-group btn-grp-xs">
+        <a href="#six" class="btn btn-default">VII</a></div>
+      </div>
+    </div>
+      <div class="row">
+        <div class="btn-group btn-group-justified">
+      <div class="btn-group btn-grp-xs">
+        <a href="#seven" class="btn btn-default">VIII</a></div>
+      <div class="btn-group btn-grp-xs">
+        <a href="#eight" class="btn btn-default">IX</a></div>
+      <div class="btn-group btn-grp-xs">
+        <a href="#nine" class="btn btn-default">X</a></div>
+      <div class="btn-group btn-grp-xs">
+      <a href="#ten" class="btn btn-default court-btn-long">Page</a>
+      </div>
+      <div class="btn-group btn-grp-xs">
+        <a href="#page" class="btn btn-default court-btn-long">Knight</a></div>
+      <div class="btn-group btn-grp-xs">
+        <a href="#knight" class="btn btn-default court-btn-long">Queen</a></div>
+      <div class="btn-group btn-grp-xs">
+        <a href="#queen" class="btn btn-default court-btn-long" data-ajax="false">King</a></div>
+      </div>
+     </div>
+    </div>
+ 
     <!-- Table2 -->
     <div class="row">
       <table class="table table-hover table-minor">
@@ -185,7 +248,8 @@
           </tr>
         </thead>
         <tbody>
-          <tr>
+          <tr id="ace" class="anchor-small">
+            <span class="anchor" id="ace"></span>
             <th scope="row">Ace <span class="meaning"><br>Potential, Beginnings</span></th>
             <td><b>Wands: </b>Venture, opportunity</td>
             <td><b>Cups: </b>Abundance, affirmation
@@ -194,7 +258,7 @@
             </td>
             <td><b>Pentacles: </b>Offer, investment, small financial gain</td>
           </tr>
-          <tr>
+          <tr id="two" class="anchor-small">
             <th scope="row">II<br><span class="meaning">Balance, Cooperation</span></th>
             <td><b>Wands: </b>Accomplishment, aspiration
             </td>
@@ -205,7 +269,7 @@
             <td><b>Pentacles:</b>Multitasking, juggling, prospects, possibilities
             </td>
           </tr>
-          <tr>
+          <tr id="three" class="anchor-small">
             <th scope="row">III<br><span class="meaning">Creation, Development</span></th>
             <td><b>Wands: </b>Validation, effort, productivity
             </td>
@@ -216,7 +280,7 @@
             <td><b>Pentacles:</b>Endorsement, recognition, fraternity
             </td>
           </tr>
-          <tr>
+          <tr id="four" class="anchor-small">
             <th scope="row">IV<br><span class="meaning">Control, Foundations</span></th>
             <td><b>Wands: </b>Prosperity, concord, familial bliss, celebration of milestone
             </td>
@@ -227,7 +291,7 @@
             <td><b>Pentacles:</b> Miser, frugality
             </td>
           </tr>
-          <tr>
+          <tr id="five" class="anchor-small">
             <th scope="row">V<br><span class="meaning">Adversity, Uncertainty</span></th>
             <td><b>Wands: </b>Competition, rivalry, contention
             </td>
@@ -238,7 +302,7 @@
             <td><b>Pentacles:</b>Destitution, privation, hardships, rejection
             </td>
           </tr>
-          <tr>
+          <tr id="six" class="anchor-small">
             <th scope="row">VI<br><span class="meaning">Spirit, Harmony</span></th>
             <td><b>Wands: </b>Success, victory, exalt, tribute
             </td>
@@ -249,7 +313,7 @@
             <td><b>Pentacles:</b>Charity, benevolence, alms, philanthropy
             </td>
           </tr>
-          <tr>
+          <tr id="seven" class="anchor-small">
             <th scope="row">VII<br><span class="meaning">Knowledge, Widsom</span></th>
             <td><b>Wands: </b>Resistance, opposition, being backed into a corner
             </td>
@@ -260,7 +324,7 @@
             <td><b>Pentacles:</b>Promotion, harvest, fiscal responsibility
             </td>
           </tr>
-          <tr>
+          <tr id="eight" class="anchor-small">
             <th scope="row">VIII<br><span class="meaning">Achievement, Assets</span></th>
             <td><b>Wands: </b>Action, vigor, alacrity, acceleration
             </td>
@@ -271,7 +335,7 @@
             <td><b>Pentacles:</b>Aspiration, apprenticeship, natural gifts in craft
             </td>
           </tr>
-          <tr>
+          <tr id="nine" class="anchor-small">
             <th scope="row">IX<br><span class="meaning">Karma, Giving back</span></th>
             <td><b>Wands: </b>Defensive, protective
             </td>
@@ -282,7 +346,7 @@
             <td><b>Pentacles:</b>Prosperity, refinement, independence
             </td>
           </tr>
-          <tr>
+          <tr id="ten" class="anchor-small">
             <th scope="row">X<br><span class="meaning">Completion, Transformation</span></th>
             <td><b>Wands: </b>Burden, exhaustion, labor (for others, not self)</td>
             <td><b>Cups: </b> Happiness, joy, felicity
@@ -292,7 +356,7 @@
             <td><b>Pentacles:</b> Stability, prestige, aristocracy, urbanity
             </td>
           </tr>
-          <tr>
+          <tr id="page" class="anchor-small">
             <th>Page<br><span class="meaning">Adventure, Possibility</span></th>
             <td><b>Wands: </b> Motivated, energetic, receipt of project news
             </td>
@@ -303,7 +367,7 @@
             <td><b>Pentacles:</b> Practical, stylish, scholarly, receipt of financial news
             </td>
           </tr>
-          <tr>
+          <tr id="knight" class="anchor-small">
             <th scope="row">Knight<br><span class="meaning">Spirit, Energy</span></th>
             <td><b>Wands: </b> Impetuous, competitive, hot-headed
             </td>
@@ -314,7 +378,7 @@
             <td><b>Pentacles:</b> Methodical, rational stable, reliable
             </td>
           </tr>
-          <tr>
+          <tr id="queen" class="anchor-small">
             <th scope="row">Queen<br><span class="meaning">Influence, Inner focus</span></th>
             <td><b>Wands: </b>Self-assured, naturalist, down-to-earth
             </td>
@@ -325,7 +389,7 @@
             <td><b>Pentacles:</b>Charitable, noble, opulence
             </td>
           </tr>
-          <tr>
+          <tr id="king" class="anchor-small">     
             <th scope="row">King<br><span class="meaning">Authority, Outward focus</span></th>
             <td><b>Wands: </b> Authoritarian, demanding, noble, honest
             </td>
@@ -340,15 +404,12 @@
       </table>
     </div>
     <!-- End row -->
-    <div class="row" style="padding-bottom: 20px;">
-      <a href="#top" data-ajax="false">Back to top</a>
-    </div>
   </div>
   <!--end container-->
 
 </div>
-<footer>
-  <p align="center">Designed and coded by Katelyn Lemay</p>
+<footer id="footer">
+  <p align="center">written, designed, and coded by <a href="http://www.katelynlemay.com/" target="_blank">Katelyn Lemay</a></p>
 </footer>
 </body>
 </html>
