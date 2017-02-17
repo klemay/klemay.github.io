@@ -36,31 +36,3 @@ div {
   padding-right: 5px;
 }
 
-
-@media (max-width: 940px) {
-  .splash-name > h1 {
-    font-size: 4rem;
-    padding-top: -10%;
-  }
-  .headline > li {
-    font-size: 1.25rem;
-  }
-}
-
-@media (max-width: 580px) {
-  .landing {
-    text-align: left;
-  }
-  .splash-name > h1 {
-    font-size: 2.5rem;
-    padding-top: 10%;
-  }
-  .headline > li {
-    font-size: 1.25rem;
-    display: block;
-  }
-  .interpunct {
-    display: none;
-  }
-
-}
