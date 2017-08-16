@@ -28,7 +28,7 @@ var quotes = [
 ]
 function getQuote() {
 //generate random number within array length
-var randomNumber = Math.floor(Math.random() * quotes.length);
+var randomNumber = Math.floor(Math.random() * quotes.length + 1);
 
 //use random number to get quote and source, append to paragraph
 var quoteContent = quotes[randomNumber].content;
