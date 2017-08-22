@@ -1,0 +1,101 @@
+body {
+  color: white;
+  font-size: 18px;
+  background: #446CB3;
+}
+.red {
+  background: #EF4836;
+}
+.orange {
+  background: #E74C3C;
+  
+}
+.green {
+  background: #26A65B;
+}
+.blue {
+  background: #446CB3;
+}
+
+#main {
+  max-width: 34rem;
+  text-align: center;
+  margin: 8% auto;
+  padding: 2em;
+  background: rgba(0, 0, 0, 0.65);
+  border-radius: 20px;
+}
+
+#currentCity {
+  font-size: 2rem;
+}
+
+.weather-img {
+  height: 7rem;
+  margin-top: -0.5rem;
+}
+#localTemp {
+  font-size: 4rem;
+  text-transform: uppercase;
+}
+#celsiusTemp {
+  font-size: 4rem;
+  text-transform: uppercase;
+}
+
+#credits {
+ color: black;
+}
+
+#credits a {
+  color: white;
+  text-decoration: underline;
+}
+
+@media only screen and (max-width: 523px) {
+#weatherDescription {
+ margin-bottom: 1rem;
+}
+  
+ #localTemp {
+  font-size: 3rem;
+ 
+}
+#celsiusTemp {
+  font-size: 3rem;
+ 
+}
+.weather-img {
+  height: 7rem;
+  margin: -1.25rem 0 0 0;
+}
+}
+
+
+@media only screen and (max-width: 420px) {
+#credits {
+  margin-top: 1rem;
+}
+}
+
+@media only screen and (max-width: 295px) {
+  #currentCity {
+  font-size: 1.5rem;
+}
+
+#weatherDescription {
+ font-size: 1rem;
+}
+
+.weather-img {
+  height: 5rem;
+  
+}
+#localTemp {
+  font-size: 2rem;
+
+}
+#celsiusTemp {
+  font-size: 2rem;
+}
+}
