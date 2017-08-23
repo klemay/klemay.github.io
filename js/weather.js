@@ -1,4 +1,4 @@
-/ Using plugin from http://simpleweatherjs.com
+/* Using plugin from simpleweatherjs.com */
 
 /*Check if browser suppots geolocation */
 
