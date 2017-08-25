@@ -49,8 +49,8 @@ $("#celsiusTemp").append('<p id="degC">' + celsius + '&deg;' + ' ' + altUnits + 
       
       $("#icon").append(iconCode);
       
-            
-      $('#weatherDescription').append(description);
+           
+     $('#weatherDescription').append(description + ', '+ weather.humidity+'% humidity');
   
     $("#currentCity").append(city + ', ' + region);     
 $('#loading').hide();    
