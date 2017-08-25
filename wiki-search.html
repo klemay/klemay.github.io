@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta property="og:site_name" content="katelynlemay.com/wiki-search" />
+  <meta property="og:image" content="#" />
+  <link rel="shortcut icon" href="https://www.katelynlemay.com/images/favicon.ico" type="image/x-icon"/ >
+  <title>Search Wikipedia</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="/css/wiki.css">
+</head>
+<body>
+<div id="wrap">
+<div class="container main">
+
+  <form id="wikiSearch">
+<div class="form-group row justify-content-center">
+  <div class="col-lg-7 col-sm-7 input-group">
+     
+    <input type="search" name="searchTerm" id="searchField" class="form-control" placeholder="Search Wikipedia">
+   <div class="input-group-addon"  id="searchButton" tabindex="0" onclick="getSearch();"><i class="fa fa-search" aria-hidden="true" ></i>
+</div>
+      </div>
+
+    </div>
+
+  </form>
+<div class="text-center">
+  <p class="get-random">Or: <a href="https://en.wikipedia.org/wiki/Special:Random" class="btn-link">Get random article</a></p>
+      </div>
+</div>
+
+
+<div id="wikiResults" class="container">
+  <div id="confirmSearch"></div>
+
+</div>
+</div>
+<footer class="container justify-content-center">
+  <div>
+  <p class="text-center">Designed and coded by <a href="http://www.katelynlemay.com">Katelyn Lemay</a></p>
+    
+  </div>
+</footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
+<script src="https://use.fontawesome.com/cbd226819b.js"></script>
+<script src="/js/wiki.js"></script>
+
+</body>
+</html>
