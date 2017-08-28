@@ -1,12 +1,5 @@
 html {
   height: 100%;
-  box-sizing: border-box;
-}
-
-*,
-*:before,
-*:after {
-  box-sizing: inherit;
 }
 
 body {
@@ -14,10 +7,6 @@ background: #514A9D;
 background: -webkit-linear-gradient(to left, #514A9D, #24C6DC);  
 background: linear-gradient(to left, #514A9D, #24C6DC); 
 color: #ECF0F1;
-position: relative;
-min-height: 100%;
-padding-bottom: 0rem;
-margin: 0;
 }
 
 a {
@@ -50,6 +39,10 @@ a {
   text-decoration: underline;
   color: white;
 }
+#wikiResults {
+  min-height: 60vh;
+  overflow: scroll;
+}
 
 #confirmSearch p {
   font-weight: 700;
@@ -68,14 +61,8 @@ a {
 }
 
 footer {
-  
-  bottom: 0;
-  position: absolute;
-  left: 0;
-  right: 0;
-  height: 60px;
   margin-left: auto;
-  margon-right: auto;
+  margin-right: auto;
   height: 60px;
 }
 footer p {
