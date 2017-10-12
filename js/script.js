@@ -8,11 +8,11 @@ $(document).on('click','.navbar-collapse',function(e) {
 /*make navbar-toggler white on scroll
  */
 function checkScroll(){
-    var startY = $('.header').height(); 
+    var startY = $('.header').height();
 
     if($(window).scrollTop() > startY){
         $('.navbar-toggler').addClass("scrolled");
-       
+
     }else{
         $('.navbar-toggler').removeClass("scrolled");
     }
@@ -24,4 +24,15 @@ if($('.navbar').length > 0){
     });
 
 }
-  
+/*scroll slowly from hero to about and from footer to top*/
+function scrollToAnchor(aid){
+    var aTag = $("a[name='"+ aid +"']");
+    $('html,body').animate({scrollTop: aTag.offset().top},'slow');
+}
+
+$("#heroLink").click(function() {
+   scrollToAnchor('about');
+});
+ $("#bottomLink").click(function() {
+   scrollToAnchor('top');
+ });
