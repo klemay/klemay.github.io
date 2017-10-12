@@ -22,7 +22,7 @@ footer {
 .navbar-toggler {
   margin-top: 10px;
   background: transparent;
-  
+
 }
 .navbar-toggler:focus{
  outline: none;
@@ -80,7 +80,7 @@ p, ul {
   width: 100%;
   min-height: auto;
   padding-left: 2rem;
-    background: url(http://www.katelynlemay.com/images/client-splash.jpg) no-repeat center center scroll;
+    background: url("http://www.katelynlemay.com/images/archived/client-splash.jpg") no-repeat center center scroll;
      background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -89,7 +89,7 @@ p, ul {
 .intro {
   padding-top: 14rem;
   padding-bottom: 14rem;
- 
+
 }
 .btn-secondary {
   background: #E7AF00;
@@ -133,21 +133,21 @@ p, ul {
 .card-header {
   background: #F2F2F2;
 
- 
+
 }
 .card-header > h3 > a {
   color: #247BA0;
-  text-decoration: none; 
+  text-decoration: none;
   text-transform: uppercase;
- 
+
 }
 .card-header > h3 > a:hover {
-  text-decoration: underline;  
+  text-decoration: underline;
 }
 .job-title {
- 
+
   font-size: 20px;
-  
+
 }
 .job-details {
   font-size: 16px;
@@ -219,7 +219,7 @@ p, ul {
   padding-top: 12rem;
   padding-bottom: 16rem;
   }
-     
+
   }
 
 @media (max-width: 380px) {
@@ -234,5 +234,5 @@ h2 {
   padding-top: 12rem;
   padding-bottom: 14rem;
   }
- 
+
 }
