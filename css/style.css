@@ -224,7 +224,7 @@ footer {
 }
  @media (max-width: 560px) {
    .header {
-     padding-top: 5rem;
+     padding: 6rem 2rem;
    }
    .header-img {
      margin-top: 3rem;
@@ -233,7 +233,7 @@ footer {
      margin: 0 2rem;
    }
      h1 {
-    font-size: 3rem;
+    font-size: 2.75rem;
   }
 
   .headline, .summary {
@@ -252,14 +252,14 @@ footer {
 
 @media (max-width: 380px) {
   h1 {
-    font-size: 2.5rem;
+    font-size: 2.25rem;
   }
   h2 {
     font-size: 2.25rem;
   }
   
   .header {
-   padding: 5rem 1rem;
+   padding: 6rem 1rem;
   }
 
   .headline, .summary {
