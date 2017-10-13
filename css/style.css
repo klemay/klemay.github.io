@@ -5,6 +5,7 @@ body {
     height: 100%;
     font-family: 'Montserrat', sans-serif;
     color: #303036;
+    scroll-behavior: smooth;
 }
 a {
     color: #0A81D1;
