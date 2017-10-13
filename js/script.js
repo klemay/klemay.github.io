@@ -26,6 +26,7 @@ if($('.navbar').length > 0){
 }
 /*scroll slowly from hero to about and from footer to top*/
 function scrollToAnchor(aid){
+    event.preventDefault(); 
     var aTag = $("a[name='"+ aid +"']");
     $('html,body').animate({scrollTop: aTag.offset().top},'slow');
 }
