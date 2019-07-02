@@ -1,0 +1,94 @@
+html {
+  font-size: 16px;
+  font-family: "Nunito Sans", sans-serif;
+  color: #000;
+}
+
+main {
+  width: 50%;
+  margin: 5em auto;
+}
+footer {
+  text-align: center;
+}
+
+h1 {
+  font-size: 3.5em;
+  margin: 0.5em 0;
+}
+
+h2 {
+  font-size: 1.75em;
+  text-transform: uppercase;
+  font-weight: 400;
+  margin: 0 0 1em;
+}
+
+p {
+  font-size: 1.25em;
+}
+
+a {
+  color: #ea0628;
+}
+
+a:focus {
+  outline: 3px solid #373a97;
+  padding: 2px;
+}
+a:hover {
+  color: #06d6a0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+li {
+  margin-bottom: 0.75em;
+}
+.small-text {
+  font-size: 0.75em;
+}
+
+/* TABLETS */
+@media only screen and (max-width: 992px) {
+  main {
+    width: 65%;
+  }
+}
+/* SMALL DEVICES */
+@media only screen and (max-width: 667px) {
+  main {
+    width: 85%;
+  }
+
+  h1 {
+    font-size: 3em;
+    margin: 0.25em 0;
+  }
+
+  h2 {
+    font-size: 1.5em;
+  }
+
+  p {
+    font-size: 1.25em;
+  }
+}
+
+/* EXTRA SMALL DEVICES */
+@media only screen and (max-width: 420px) {
+  h1 {
+    font-size: 2em;
+  }
+
+  h2 {
+    font-size: 1.25em;
+  }
+
+  p {
+    font-size: 1.25em;
+  }
+}
