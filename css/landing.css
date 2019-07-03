@@ -1,0 +1,90 @@
+html {
+  color: #fff;
+}
+body {
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: darken;
+  background-image: url("../images/site-background.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+main {
+  background-color: #373a97;
+  text-align: center;
+  padding: 3em 6em;
+  width: 45%;
+  margin: 5em auto;
+  border-radius: 1%;
+}
+
+a {
+  color: #06d6a0;
+}
+a:hover {
+  color: #ea0628;
+}
+a:focus {
+  outline: 2px solid #ea0628;
+}
+a i {
+  color: #fff;
+}
+a i:hover {
+  color: #06d6a0;
+}
+
+ul {
+  margin: 2em 0 0;
+  padding-inline-start: 0;
+  font-size: 1.25em;
+}
+
+ul li {
+  display: inline;
+  list-style-type: none;
+  padding-right: 2em;
+}
+ul li:last-child {
+  padding-right: 0;
+}
+
+#myPic {
+  width: 8em;
+  border: 0.25em solid #06d6a0;
+  border-radius: 50%;
+  margin-bottom: 0;
+}
+/* MEDIA QUERIES */
+/* TABLETS */
+main {
+  margin: 4em auto;
+  padding: 3em 4em;
+}
+/* SMALL DEVICES */
+@media only screen and (max-width: 667px) {
+  main {
+    width: 60%;
+    margin: 2em auto;
+  }
+  main p {
+    text-align: left;
+  }
+  h1 {
+    font-size: 2em;
+  }
+  ul li {
+    padding-right: 1em;
+  }
+  .fa-2x {
+    font-size: 1.25em;
+  }
+}
+
+/* EXTRA SMALL DEVICES */
+@media only screen and (max-width: 420px) {
+  main {
+    width: 85%;
+    padding: 3em 1.5em;
+  }
+}
