@@ -4,7 +4,7 @@ html {
 body {
   background-color: rgba(0, 0, 0, 0.5);
   background-blend-mode: darken;
-  background-image: url("../images/site-background.jpg");
+  background-image: url("https://www.katelynlemay.com/images/site-background.jpg");
   background-size: cover;
   background-position: center;
 }
