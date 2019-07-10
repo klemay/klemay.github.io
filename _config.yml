@@ -1,0 +1,12 @@
+kramdown:
+  input: GFM
+  auto_ids: true
+  hard_wrap: false
+  syntax_highlighter: rouge
+
+title: Katelyn Lemay
+footer: Designed and built by Katelyn Lemay.
+
+collections:
+  portfolio:
+      output: true;
