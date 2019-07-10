@@ -1,0 +1,141 @@
+.anchor {
+    display: block;
+    position: relative;
+    top: -130px;
+    visibility: hidden;
+}
+.anchor-small:before {
+  display: block;
+  position: relative;
+  height: 150px;
+  top: -150px;
+  visibility: hidden;
+}
+b {
+  display: none;
+}
+.skip {
+  display: none;
+}
+p {
+  font-size: 12px;
+}
+.container {
+  max-width: 960px;
+}
+
+.jumbotron {
+  background-color: white;
+}
+.table {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.meaning {
+  font-weight: normal;
+}
+.custom-nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #000;
+  text-align: center;
+  color: #FFF;
+  z-index: 10;
+  
+}
+.custom-nav h3 {
+  font-size: 30px;
+  margin-top: 30px;
+  font-family: 'Berkshire Swash', cursive;
+}
+.custom-nav h3 > a:hover {
+  text-decoration: none;
+}
+.custom-nav ul {
+  padding-bottom: 20px;
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+
+}
+.custom-nav a {
+  color: #FFF;
+}
+.custom-nav a:hover, a:active {
+  color: #DDD;
+  text-decoration: underline;
+}
+h4 {
+  font-family: 'Berkshire Swash', cursive;
+  font-size: 20px;
+}
+body {
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+#footer {
+  background-color: #000;
+  text-align: center;
+  color: #FFF;
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+.table-major {
+  margin-bottom: 50px;
+}
+
+@media 
+ (max-width: 680px) {
+   
+   .table-minor thead { 
+    display: none;
+  }
+   .table-minor th {
+     border-top: none !important;
+   }
+  .table-minor td, .table-minor tr { 
+    display: block; 
+   
+  }
+   .table-minor tr {
+     border-top: 1px solid #ddd;
+   }
+   .table-minor td {
+     border-top: none !important;
+   }
+  .table-minor b {
+      display: inline-block;
+      padding-right: 5px;
+      text-indent: 0;
+}
+   .meaning {
+     font-style: italic; 
+   } 
+   .skip {
+     display: inline;
+   }
+
+@media
+  (max-width: 420px) {
+    .custom-nav h3 {
+      font-size: 24px;
+      margin-top: 15px;
+    }
+    .custom-nav ul {
+      font-size: 14px;
+      margin-bottom: 5px;
+    }
+    .btn {
+      font-size: 12.5px;
+    }
+    .court-btn-long {
+      font-size: 9px;
+      padding-left: 7px;
+      padding-top: 8.75px;
+      padding-bottom: 8.5px;
+    }
+    body {
+
+   }
