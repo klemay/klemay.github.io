@@ -1,0 +1,138 @@
+html {
+  font-size: 16px;
+  font-family: "Nunito Sans", sans-serif;
+  color: #000;
+}
+
+nav {
+  width: 50%;
+  margin: 2em auto 0em;
+  font-size: 1em;
+  padding: 0.5em 0 0.5em;
+}
+
+.active-nav {
+  border-bottom: 3px solid #ea0628;
+  background-color: #f2f2f2;
+}
+
+nav a {
+  padding: 0.75em;
+  margin-right: 1.5em;
+  color: #000;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+nav a:first-child {
+  margin-left: -0.75em;
+}
+
+nav a:focus {
+  padding: 0.75em !important;
+  outline: 3px solid #373a97;
+  color: #ea0628;
+}
+nav a:hover {
+  border-bottom: 3px solid #000;
+  color: #ea0628;
+}
+
+main {
+  width: 50%;
+  margin: 3em auto;
+}
+
+footer {
+  text-align: center;
+}
+
+h1 {
+  font-size: 3.5em;
+  margin: 0.5em 0;
+}
+
+h2 {
+  font-size: 1.75em;
+  text-transform: uppercase;
+  font-weight: 400;
+  margin: 0 0 1em;
+}
+
+p {
+  font-size: 1.25em;
+}
+
+a {
+  color: #ea0628;
+}
+
+a:focus {
+  outline: 3px solid #373a97;
+  padding: 2px;
+}
+a:hover {
+  color: #06d6a0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+li {
+  margin-bottom: 0.75em;
+}
+.small-text {
+  font-size: 0.75em;
+}
+
+/* TABLETS */
+@media only screen and (max-width: 992px) {
+  main, nav {
+    width: 65%;
+  }
+}
+/* SMALL DEVICES */
+@media only screen and (max-width: 667px) {
+  main, nav {
+    width: 85%;
+  }
+
+  h1 {
+    font-size: 3em;
+    margin: 0.25em 0;
+  }
+
+  h2 {
+    font-size: 1.5em;
+  }
+
+  p {
+    font-size: 1.25em;
+  }
+}
+
+/* EXTRA SMALL DEVICES */
+@media only screen and (max-width: 420px) {
+  nav a {
+    margin-right: 0.5em;
+    font-size: 0.9em;
+  }
+
+  nav a:first-child {
+    margin-left: -0.75em;
+  }
+  
+  h1 {
+    font-size: 2em;
+  }
+
+  h2 {
+    font-size: 1.25em;
+  }
+
+  p {
+    font-size: 1.25em;
+  }
+}
