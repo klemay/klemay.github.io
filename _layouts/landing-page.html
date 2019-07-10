@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  {%include head.html %}
+  <link rel="stylesheet" href="https://katelynlemay.com/css/landing.css">
+</head>
+<body>
+<main>
+  <img src="https://www.katelynlemay.com/images/katelyn-lemay.png" alt="I am a fat woman who wears giant, clear-framed glasses. My hair is bright blue and cut into an asymmetrical pixie." id="myPic">
+  <section id="about">
+    <h1>{{ page.title }}</h1>
+    {{ content }}
+  </section>
+  <section id="contact">
+    {% include contact.html %}
+  </section>
+</main>
+<footer>
+  <p class="small-text">Designed and built by Katelyn Lemay. Background photo by <a href="https://unsplash.com/@dinoto_photography">Cris DiNoto</a>.</p>
+</footer>
+</body>
+</html>
