@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-07-24T14:21:13-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Katelyn Lemay</title><entry><title type="html">Katelyn Lemay | README</title><link href="http://localhost:4000/2019/07/24/README.html" rel="alternate" type="text/html" title="Katelyn Lemay | README" /><published>2019-07-24T00:00:00-04:00</published><updated>2019-07-24T00:00:00-04:00</updated><id>http://localhost:4000/2019/07/24/README</id><content type="html" xml:base="http://localhost:4000/2019/07/24/README.html">&lt;h1 id=&quot;my-manager-readme&quot;&gt;My Manager README&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-07-24T14:26:54-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Katelyn Lemay</title><entry><title type="html">Katelyn Lemay | README</title><link href="http://localhost:4000/2019/07/24/README.html" rel="alternate" type="text/html" title="Katelyn Lemay | README" /><published>2019-07-24T00:00:00-04:00</published><updated>2019-07-24T00:00:00-04:00</updated><id>http://localhost:4000/2019/07/24/README</id><content type="html" xml:base="http://localhost:4000/2019/07/24/README.html">&lt;h1 id=&quot;my-manager-readme&quot;&gt;My Manager README&lt;/h1&gt;
 &lt;p&gt;When I joined &lt;a href=&quot;https://web.hypothes.is/&quot;&gt;Hypothesis&lt;/a&gt;, my manager at the time sent &lt;a href=&quot;https://andrew.hedges.name/my-manager-readme.html&quot;&gt;a Manager README&lt;/a&gt; before my first day. It gave me a sense of what it would be like to work with him, and spelled out some expectations that we’re normally required to guess at in the workplace. My README is inspired by and adapted from his— I hope you find this useful.&lt;/p&gt;
 
 &lt;h2 id=&quot;about-me&quot;&gt;About me&lt;/h2&gt;
@@ -17,9 +17,10 @@ You are welcome but not at all obligated to follow and interact with me on &lt;a
 &lt;ul&gt;
   &lt;li&gt;Benefits, time off, and other logistics&lt;/li&gt;
   &lt;li&gt;The history behind decisions made before you joined the team&lt;/li&gt;
-  &lt;li&gt;Navigating tough conversations with other team members
-﻿If I’m not the right person to answer a question you have, I ﻿can point you toward that person.&lt;/li&gt;
+  &lt;li&gt;Navigating tough conversations with other team members&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;p&gt;If I’m not the right person to answer a question you have, I ﻿can point you toward that person.&lt;/p&gt;
 
 &lt;h2 id=&quot;working-with-me&quot;&gt;Working with me&lt;/h2&gt;
 &lt;p&gt;I will do my best to give feedback early and often. Feedback does not mean you’ve done something wrong or bad; most of the time, I’ll want to help you improve your workflow or ask that you do something a little differently to fit company-specific culture or best practices. I ﻿like to give positive feedback too!&lt;/p&gt;
