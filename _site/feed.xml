@@ -1,21 +1,23 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2019-08-20T16:52:20-04:00</updated><id>/feed.xml</id><title type="html">Katelyn Lemay</title><entry><title type="html">Katelyn Lemay | How to write a resignation letter</title><link href="/2019/08/20/resignation-letter.html" rel="alternate" type="text/html" title="Katelyn Lemay | How to write a resignation letter" /><published>2019-08-20T00:00:00-04:00</published><updated>2019-08-20T00:00:00-04:00</updated><id>/2019/08/20/resignation-letter</id><content type="html" xml:base="/2019/08/20/resignation-letter.html">&lt;h1 id=&quot;how-to-write-a-resignation-letter&quot;&gt;How to write a resignation letter&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2019-08-20T17:08:40-04:00</updated><id>/feed.xml</id><title type="html">Katelyn Lemay</title><entry><title type="html">Katelyn Lemay | How to write a resignation letter</title><link href="/2019/08/20/resignation-letter.html" rel="alternate" type="text/html" title="Katelyn Lemay | How to write a resignation letter" /><published>2019-08-20T00:00:00-04:00</published><updated>2019-08-20T00:00:00-04:00</updated><id>/2019/08/20/resignation-letter</id><content type="html" xml:base="/2019/08/20/resignation-letter.html">&lt;h1 id=&quot;how-to-write-a-resignation-letter&quot;&gt;How to write a resignation letter&lt;/h1&gt;
 &lt;p&gt;Recently, I was asked for advice on how to write a resignation letter. I thought I’d share here in case this information is more widely useful. I’ve provided a template along with the actual letter I used when I left my last job (with some sensitive information redacted).
 You’ll notice that some of the text on this page is highlighted in yellow— I’ve used a tool called &lt;a href=&quot;https://web.hypothes.is/&quot;&gt;Hypothesis&lt;/a&gt; to annotate the template and example letters. Click on the yellow text to open the annotation sidebar and read the attached annotations.&lt;/p&gt;
 
 &lt;h2 id=&quot;template&quot;&gt;Template&lt;/h2&gt;
-&lt;p&gt;[DATE OF MEETING WITH MANAGER]&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;[DATE OF MEETING WITH MANAGER]&lt;/p&gt;
 
-&lt;p&gt;Dear [MANAGER],&lt;/p&gt;
+  &lt;p&gt;Dear [MANAGER],&lt;/p&gt;
 
-&lt;p&gt;Please accept this letter as formal notification that I am resigning from my position as [JOB TITLE] at [EMPLOYER]. I have accepted a [JOB TITLE] position outside of [EMPLOYER] effective [NEW START DATE]. This means my last day at [EMPLOYER] will be [LAST DAY].&lt;/p&gt;
+  &lt;p&gt;Please accept this letter as formal notification that I am resigning from my position as [JOB TITLE] at [EMPLOYER]. I have accepted a [JOB TITLE] position outside of [EMPLOYER] effective [NEW START DATE]. This means my last day at [EMPLOYER] will be [LAST DAY].&lt;/p&gt;
 
-&lt;p&gt;As you know, I have been at [EMPLOYER] for [LENGTH OF EMPLOYMENT], having joined the team in [MONTH AND YEAR OF START DATE]. [LIST THINGS YOU’VE ACCOMPLISHED AND LEARNED].&lt;/p&gt;
+  &lt;p&gt;As you know, I have been at [EMPLOYER] for [LENGTH OF EMPLOYMENT], having joined the team in [MONTH AND YEAR OF START DATE]. [LIST THINGS YOU’VE ACCOMPLISHED AND LEARNED].&lt;/p&gt;
 
-&lt;p&gt;I’m grateful for [THE OPPORTUNITIES I’VE HAD / THE SUPPORTIVE WORK ENVIRONMENT YOU’VE PROVIDED / SOMETHING NICE], and I [HOPE TO STAY IN TOUCH / LOOK FORWARD TO KEEPING UP WITH THE WORK THAT WILL COME OUT OF THE DEPARTMENT]. In the next [FEW DAYS / TWO WEEKS], I will work with you to ensure projects are wrapped up and department operations are set to continue smoothly after my departure.&lt;/p&gt;
+  &lt;p&gt;I’m grateful for [THE OPPORTUNITIES I’VE HAD / THE SUPPORTIVE WORK ENVIRONMENT YOU’VE PROVIDED / SOMETHING NICE], and I [HOPE TO STAY IN TOUCH / LOOK FORWARD TO KEEPING UP WITH THE WORK THAT WILL COME OUT OF THE DEPARTMENT]. In the next [FEW DAYS / TWO WEEKS], I will work with you to ensure projects are wrapped up and department operations are set to continue smoothly after my departure.&lt;/p&gt;
 
-&lt;p&gt;Best wishes,&lt;/p&gt;
+  &lt;p&gt;Best wishes,&lt;/p&gt;
 
-&lt;p&gt;[YOUR NAME]&lt;/p&gt;
+  &lt;p&gt;[YOUR NAME]&lt;/p&gt;
+&lt;/blockquote&gt;
 
 &lt;h2 id=&quot;example&quot;&gt;Example&lt;/h2&gt;
 &lt;p&gt;November 21, 2017&lt;/p&gt;
@@ -30,8 +32,9 @@ You’ll notice that some of the text on this page is highlighted in yellow— I
 
 &lt;p&gt;I hope to keep in touch and to hear about all the amazing work I know this department will continue to do.&lt;/p&gt;
 
-&lt;p&gt;Best wishes,
-Katelyn Lemay&lt;/p&gt;</content><author><name></name></author><summary type="html">A template resignation letter to help you quit your job gracefully.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://katelynlemay.com/images/opengraph-preview.png" /></entry><entry><title type="html">Katelyn Lemay | README</title><link href="/2019/07/24/README.html" rel="alternate" type="text/html" title="Katelyn Lemay | README" /><published>2019-07-24T00:00:00-04:00</published><updated>2019-07-24T00:00:00-04:00</updated><id>/2019/07/24/README</id><content type="html" xml:base="/2019/07/24/README.html">&lt;h1 id=&quot;my-manager-readme&quot;&gt;My Manager README&lt;/h1&gt;
+&lt;p&gt;Best wishes,&lt;/p&gt;
+
+&lt;p&gt;Katelyn Lemay&lt;/p&gt;</content><author><name></name></author><summary type="html">A template resignation letter to help you quit your job gracefully.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://katelynlemay.com/images/opengraph-preview.png" /></entry><entry><title type="html">Katelyn Lemay | README</title><link href="/2019/07/24/README.html" rel="alternate" type="text/html" title="Katelyn Lemay | README" /><published>2019-07-24T00:00:00-04:00</published><updated>2019-07-24T00:00:00-04:00</updated><id>/2019/07/24/README</id><content type="html" xml:base="/2019/07/24/README.html">&lt;h1 id=&quot;my-manager-readme&quot;&gt;My Manager README&lt;/h1&gt;
 &lt;p&gt;When I joined &lt;a href=&quot;https://web.hypothes.is/&quot;&gt;Hypothesis&lt;/a&gt;, my manager at the time sent &lt;a href=&quot;https://andrew.hedges.name/my-manager-readme.html&quot;&gt;a Manager README&lt;/a&gt; before my first day. It gave me a sense of what it would be like to work with him, and spelled out some expectations that we’re normally required to guess at in the workplace. My README is inspired by and adapted from his— I hope you find this useful.&lt;/p&gt;
 
 &lt;h2 id=&quot;about-me&quot;&gt;About me&lt;/h2&gt;
