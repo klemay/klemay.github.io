@@ -41,4 +41,5 @@ I’m so grateful for the supportive and encouraging environment you have create
 I hope to keep in touch and to hear about all the amazing work I know this department will continue to do.
 
 Best wishes,
+
 Katelyn Lemay
