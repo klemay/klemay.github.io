@@ -9,23 +9,23 @@ Recently, I was asked for advice on how to write a resignation letter. I thought
 You'll notice that some of the text on this page is highlighted in yellow— I've used a tool called [Hypothesis](https://web.hypothes.is/) to annotate the template and example letters. Click on the yellow text to open the annotation sidebar and read the attached annotations.
 
 ## Template
-[DATE OF MEETING WITH MANAGER]
-
-Dear [MANAGER],
-
-Please accept this letter as formal notification that I am resigning from my position as [JOB TITLE] at [EMPLOYER]. I have accepted a [JOB TITLE] position outside of [EMPLOYER] effective [NEW START DATE]. This means my last day at [EMPLOYER] will be [LAST DAY].
-
-As you know, I have been at [EMPLOYER] for [LENGTH OF EMPLOYMENT], having joined the team in [MONTH AND YEAR OF START DATE]. [LIST THINGS YOU’VE ACCOMPLISHED AND LEARNED].
-
-I’m grateful for [THE OPPORTUNITIES I’VE HAD / THE SUPPORTIVE WORK ENVIRONMENT YOU’VE PROVIDED / SOMETHING NICE], and I [HOPE TO STAY IN TOUCH / LOOK FORWARD TO KEEPING UP WITH THE WORK THAT WILL COME OUT OF THE DEPARTMENT]. In the next [FEW DAYS / TWO WEEKS], I will work with you to ensure projects are wrapped up and department operations are set to continue smoothly after my departure.
-
-Best wishes,
-
-
-
-
-
-[YOUR NAME]
+> [DATE OF MEETING WITH MANAGER]
+>
+> Dear [MANAGER],
+>
+> Please accept this letter as formal notification that I am resigning from my position as [JOB TITLE] at [EMPLOYER]. I have accepted a [JOB TITLE] position outside of [EMPLOYER] effective [NEW START DATE]. This means my last day at [EMPLOYER] will be [LAST DAY].
+>
+> As you know, I have been at [EMPLOYER] for [LENGTH OF EMPLOYMENT], having joined the team in [MONTH AND YEAR OF START DATE]. [LIST THINGS YOU’VE ACCOMPLISHED AND LEARNED].
+>
+> I’m grateful for [THE OPPORTUNITIES I’VE HAD / THE SUPPORTIVE WORK ENVIRONMENT YOU’VE PROVIDED / SOMETHING NICE], and I [HOPE TO STAY IN TOUCH / LOOK FORWARD TO KEEPING UP WITH THE WORK THAT WILL COME OUT OF THE DEPARTMENT]. In the next [FEW DAYS / TWO WEEKS], I will work with you to ensure projects are wrapped up and department operations are set to continue smoothly after my departure.
+>
+> Best wishes,
+>
+>
+>
+>
+>
+> [YOUR NAME]
 
 ## Example
 November 21, 2017
