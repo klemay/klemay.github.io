@@ -10,7 +10,7 @@ body {
 }
 
 main {
-  background-color: #373a97;
+  background-color: #40417A;
   text-align: center;
   padding: 3em 6em;
   width: 45%;
@@ -19,19 +19,20 @@ main {
 }
 
 a {
-  color: #06d6a0;
+  color: #FFFFFF;
 }
+
 a:hover {
-  color: #ea0628;
+  color: #BD169A;
 }
 a:focus {
-  outline: 2px solid #ea0628;
+  outline: 2px solid #BD169A;
 }
 a i {
   color: #fff;
 }
 a i:hover {
-  color: #06d6a0;
+  color: #BD169A;
 }
 
 ul {
@@ -50,8 +51,8 @@ ul li:last-child {
 }
 
 #myPic {
-  width: 8em;
-  border: 0.25em solid #06d6a0;
+  width: 10em;
+  
   border-radius: 50%;
   margin-bottom: 0;
 }
